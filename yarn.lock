@@ -460,10 +460,10 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
   integrity sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==
 
-"@dfhernandez/js-utilities@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@dfhernandez/js-utilities/-/js-utilities-0.4.1.tgz#dad87015d43c65d66f664b7fa8f000b43fee3234"
-  integrity sha512-E14+gRPOHHHn1uH6uTYLCKTwAHN11TDDsnEQOBxZN4puNJhxBEZoTGFIrUBToI7r9W0Q9Q49cvbuBI90eiRNrQ==
+"@dfhernandez/js-utilities@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@dfhernandez/js-utilities/-/js-utilities-0.4.2.tgz#defb0427f7bdf6dcbe7a8170e0e7d5e59f5b6c7a"
+  integrity sha512-iUTmffo+tyh86jBSq6xVEsaMY8aSvXxBpdCZjbhPf8WAs8aSIu7+oOJNtlPxW8n6e/OjLd0XHvXNOpeO/rw+Gw==
 
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
