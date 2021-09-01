@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": true,
+    "noEmit": false,
+    "outDir": "lib",
+    "paths": {
+      "@dfhernandez/native-theme": ["./src/index"]
+    }
+  },
+  "exclude": [
+    "__tests__/**/*-test.ts",
+    "tests",
+    "dist",
+    "node_modules",
+    "build",
+    "lib",
+    "coverage",
+    ".eslintrc.js",
+    "commitlint.config.js",
+    "jest.config.js",
+    "lint-staged.config.js"
+  ],
+  "extends": "@dfhernandez/js-utilities/tsconfig.base",
+  "filesGlob": [
+    "typings/index.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "node_modules/typescript/lib/lib.es6.d.ts"
+  ],
+  "include": ["**/*.js", "**/*.ts", "./*", "./**/*", "./src"],
+  "types": ["jest", "styled-components-react-native"]
+}
