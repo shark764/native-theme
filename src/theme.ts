@@ -3,30 +3,59 @@ import type { DefaultThemeProps } from './types';
 export const darkTheme: DefaultThemeProps = {
   mode: 'dark',
 
-  borderRadius: '8px',
+  borderRadius: 8,
 
   colors: {
-    main: '#1e1f26',
-    secondary: '#283655',
+    main: '#9e5a63',
+    secondary: '#c96567',
 
     background: {
-      main: '#4d648d',
-      secondary: '#d0e1f9',
+      main: '#97aabd',
+      secondary: '#ffffff',
     },
 
     font: {
-      main: '#1e1f26',
-      secondary: '#000000',
+      main: '#9e5a63',
+      secondary: '#c96567',
     },
 
     button: {
-      main: '#1e1f26',
-      secondary: '#283655',
+      main: '#644e5b',
+      secondary: '#314455',
     },
 
     icon: {
-      main: '#1e1f26',
-      secondary: '#283655',
+      main: '#644e5b',
+      secondary: '#314455',
+    },
+  },
+
+  sizes: {
+    font: {
+      default: 14,
+      xsmall: 10,
+      small: 12,
+      medium: 14,
+      large: 18,
+      xlarge: 22,
+    },
+
+    button: {
+      default: 14,
+      xsmall: 10,
+      small: 12,
+      medium: 14,
+      large: 18,
+      xlarge: 22,
+    },
+
+    icon: {
+      default: 100,
+      xsmall: 10,
+      small: 50,
+      medium: 100,
+      large: 150,
+      xlarge: 200,
     },
   },
 };
@@ -34,30 +63,59 @@ export const darkTheme: DefaultThemeProps = {
 export const lightTheme: DefaultThemeProps = {
   mode: 'light',
 
-  borderRadius: '8px',
+  borderRadius: 8,
 
   colors: {
-    main: '#f1f1f2',
-    secondary: '#bcbabe',
+    main: '#303c6c',
+    secondary: '#b4dfe5',
 
     background: {
-      main: '#a1d6e2',
-      secondary: '#1995ad',
+      main: '#d2fdff',
+      secondary: '#ffffff',
     },
 
     font: {
-      main: '#f1f1f2',
-      secondary: '#000000',
+      main: '#303c6c',
+      secondary: '#b4dfe5',
     },
 
     button: {
-      main: '#f1f1f2',
-      secondary: '#bcbabe',
+      main: '#f4976c',
+      secondary: '#fbe8a6',
     },
 
     icon: {
-      main: '#f1f1f2',
-      secondary: '#bcbabe',
+      main: '#f4976c',
+      secondary: '#fbe8a6',
+    },
+  },
+
+  sizes: {
+    font: {
+      default: 14,
+      xsmall: 10,
+      small: 12,
+      medium: 14,
+      large: 18,
+      xlarge: 22,
+    },
+
+    button: {
+      default: 14,
+      xsmall: 10,
+      small: 12,
+      medium: 14,
+      large: 18,
+      xlarge: 22,
+    },
+
+    icon: {
+      default: 100,
+      xsmall: 10,
+      small: 50,
+      medium: 100,
+      large: 150,
+      xlarge: 200,
     },
   },
 };
