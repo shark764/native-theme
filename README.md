@@ -6,69 +6,17 @@ Library that contains all sharable utilities and configuration files, written in
 ## Installation
 
 ```sh
-yarn add @dfhernandez/native-theme
+yarn add @2600hz/sds-native-theme
 ```
 
 ## Usage
 
 ```js
-import { capitalize, humanize } from '@dfhernandez/native-theme';
+import { darkTheme, lightTheme } from '@2600hz/sds-native-theme';
 
 // ...
 
-<Text>{capitalize(headerText)}</Text>
-<Button title={humanize(buttonName)} onPress={}.... />
-```
-
-You can also import or require directly from folder
-
-```js
-const {
-  prettierBaseConfig,
-} = require('@dfhernandez/native-theme/lib/prettier-config');
-
-prettierBaseConfig.jsxBracketSameLine = false;
-
-module.exports = prettierBaseConfig;
-```
-
-**Configuration files**
-You can extend any of the following configs:
-- eslint (_.eslintrc.js_)
-- prettier (_..prettierrc.js_)
-- release-it (_.release-it.js_)
-- commitlint (_commitlint.config.js_)
-- svgrrc (_.svgrrc.js_)
-- jest (_jest.config.js_)
-- lint-staged (_lint-staged.config.js_)
-- tsconfig (_tsconfig.json_)
-
-All configuration files are imported and used same way, there are just two files that need different treatment
-
-*eslint*
-Eslint file exports a function that receives the root folder
-
-```js
-const {
-  eslintBaseConfig,
-} = require('@dfhernandez/native-theme/lib/eslint-config');
-
-module.exports = eslintBaseConfig(__dirname);
-```
-
-*tsconfig*
-This file must extends from any of the ts config files available
-```json
-{
-  "extends": "@dfhernandez/native-theme/tsconfig.base",
-  "compilerOptions": {
-    "baseUrl": "./",
-    ...
-  },
-  "exclude": [...],
-  "include": [...],
-}
-  
+<ThemeProvider theme={darkTheme}>{children}</ThemeProvider>
 ```
 
 ## Development
@@ -106,7 +54,7 @@ yarn watch
 **Consume the package**
 `Both projects must be placed on same folder, otherwise won't work`
 ```bash
-yarn link @dfhernandez/native-theme
+yarn link @2600hz/sds-native-theme
 ```
 
 Build the package
@@ -148,7 +96,7 @@ Components library uses a number of open source projects to work properly:
 
 - [Typescript](https://www.typescriptlang.org/docs/handbook/react.html) - Strongly typed programming language which builds on JavaScript
 - [NodeJs](https://nodejs.org/es/) - Allows execute javascript scripts on the terminal
-- [Luxon](https://moment.github.io/luxon/) - library for dealing with dates and times in JavaScript (better alternative than Moment.js)
+- [Styled-Components](https://styled-components.com/) - Library to style react components
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -176,6 +124,12 @@ Follow [Semantic Versioning 2.0.0](https://semver.org/) to update project versio
 - **BREAKING CHANGE** - regardless of type, indicates a Major release (MAJOR) ex. v1.0.0
 
 Visit [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for more examples.
+
+**Make a release**
+Run following command after your last commit/amend. Then answer with Y/N the prompt
+```bash
+yarn release
+```
 
 ## License
 
