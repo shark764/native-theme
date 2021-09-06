@@ -1,5 +1,5 @@
 // .prettierrc.js
 
-const { prettierBaseConfig } = require('@2600hz/js-utilities');
+const { prettierBaseConfig } = require('@dfhernandez/js-utilities');
 
 module.exports = prettierBaseConfig;

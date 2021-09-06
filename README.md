@@ -6,13 +6,13 @@ Library that contains all sharable utilities and configuration files, written in
 ## Installation
 
 ```sh
-yarn add @2600hz/sds-native-theme
+yarn add @dfhernandez/sds-native-theme
 ```
 
 ## Usage
 
 ```js
-import { darkTheme, lightTheme } from '@2600hz/sds-native-theme';
+import { darkTheme, lightTheme } from '@dfhernandez/sds-native-theme';
 
 // ...
 
@@ -54,7 +54,7 @@ yarn watch
 **Consume the package**
 `Both projects must be placed on same folder, otherwise won't work`
 ```bash
-yarn link @2600hz/sds-native-theme
+yarn link @dfhernandez/sds-native-theme
 ```
 
 Build the package
