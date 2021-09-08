@@ -1,3 +1,5 @@
+## [0.2.1](https://github.com/2600hz/sds-react-native-theme/compare/v0.2.0...v0.2.1) (2021-09-08)
+
 # [0.2.0](https://github.com/2600hz/sds-native-theme/compare/v0.1.2...v0.2.0) (2021-09-06)
 
 
