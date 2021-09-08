@@ -5,7 +5,7 @@
     "noEmit": false,
     "outDir": "lib",
     "paths": {
-      "@dfhernandez/sds-native-theme": ["./src/index"]
+      "@2600hz/sds-react-native-theme": ["./src/index"]
     }
   },
   "exclude": [
@@ -21,7 +21,7 @@
     "jest.config.js",
     "lint-staged.config.js"
   ],
-  "extends": "@dfhernandez/js-utilities/tsconfig.base",
+  "extends": "@2600hz/commio-native-utilities/tsconfig.base",
   "filesGlob": [
     "typings/index.d.ts",
     "src/**/*.ts",

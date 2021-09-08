@@ -1,18 +1,38 @@
-# 2600Hz - Commio
-## _Native Theme Library_
+<div align="center">
+  <a href="#">
+  	<img src="https://media.giphy.com/media/GHeV8BGjJAAWk/giphy.gif" alt="React Native Components" height="160" />
+  </a>
+  <br>
+  <br>
+  <p>
+    <b>@2600hz/sds-react-native-theme</b>
+  </p>
+  <p>
+     <i>Library that contains theme used in react native app written for Styled-Components.</i>
+  </p>
+  <p>
 
-Library that contains all sharable utilities and configuration files, written in Javascript
+[![NPM version](https://img.shields.io/npm/v/@2600hz/sds-react-native-theme?style=flat-square)](https://img.shields.io/npm/v/@2600hz/sds-react-native-theme?style=flat-square)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
+  </p>
+</div>
+
+---
+
+# 2600Hz - Commio
+## _Sds React Native Theme Library_
 
 ## Installation
 
 ```sh
-yarn add @dfhernandez/sds-native-theme
+yarn add @2600hz/sds-react-native-theme
 ```
 
 ## Usage
 
 ```js
-import { darkTheme, lightTheme } from '@dfhernandez/sds-native-theme';
+import { darkTheme, lightTheme } from '@2600hz/sds-react-native-theme';
 
 // ...
 
@@ -54,7 +74,7 @@ yarn watch
 **Consume the package**
 `Both projects must be placed on same folder, otherwise won't work`
 ```bash
-yarn link @dfhernandez/sds-native-theme
+yarn link @2600hz/sds-react-native-theme
 ```
 
 Build the package

@@ -1,5 +1,5 @@
 {
-  "name": "@dfhernandez/sds-native-theme",
+  "name": "@2600hz/sds-react-native-theme",
   "version": "0.2.0",
   "description": "Library written in JS that contains all themes for native apps",
   "author": "Daniel Hernandez <fhernandez@2600hz.com> (https://github.com/shark764)",
@@ -31,7 +31,7 @@
     "test": "jest --watchAll"
   },
   "dependencies": {
-    "@dfhernandez/js-utilities": "^0.5.0",
+    "@2600hz/commio-native-utilities": "^0.5.1",
     "styled-components": "^5.3.0"
   },
   "devDependencies": {
@@ -73,12 +73,12 @@
     "utilities"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/2600hz/sds-native-theme#readme",
+  "homepage": "https://github.com/2600hz/sds-react-native-theme#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2600hz/sds-native-theme.git"
+    "url": "git+https://github.com/2600hz/sds-react-native-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/2600hz/sds-native-theme/issues"
+    "url": "https://github.com/2600hz/sds-react-native-theme/issues"
   }
 }

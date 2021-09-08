@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@2600hz/commio-native-utilities@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@2600hz/commio-native-utilities/-/commio-native-utilities-0.5.1.tgz#855acd0bb0ee30d50992af1805d39570cf911671"
+  integrity sha512-Sq0zpHZIKQoBBdbQRDYcM2JLzas9fvUriaL/aiRFgB03UUw1q+Ucd3fxkIibRo0uj8o4S4JjcQuZF/pFelQEIQ==
+
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -459,11 +464,6 @@
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
   integrity sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==
-
-"@dfhernandez/js-utilities@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@dfhernandez/js-utilities/-/js-utilities-0.5.0.tgz#6cd31120388b55c3da280dac121a62dfe49c700d"
-  integrity sha512-snsv2HBKQdkiQ5qrRwUOer624IQT93R/h/ecn70JcnGuwUCY5lVeCaKfJBe0ZfgWaGPWlWdWpoVHmnbPsa7tNw==
 
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
