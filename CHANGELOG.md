@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/2600hz/sds-react-native-theme/compare/v0.2.2...v0.2.3) (2021-09-15)
+
+
+### Bug Fixes
+
+* Bumping utilities version ([b11cb45](https://github.com/2600hz/sds-react-native-theme/commit/b11cb4501201b59c6be6335b3b5d0be96c9bd67d))
+
 ## [0.2.2](https://github.com/2600hz/sds-react-native-theme/compare/v0.2.1...v0.2.2) (2021-09-09)
 
 ## [0.2.1](https://github.com/2600hz/sds-react-native-theme/compare/v0.2.0...v0.2.1) (2021-09-08)
